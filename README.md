@@ -1,6 +1,7 @@
 ---
 layout: layout.html
 title: Windfall License (WfL) Version 1.0
+theme: jekyll-theme-cayman
 color_scheme: jet-puff-mallow
 ---
 
