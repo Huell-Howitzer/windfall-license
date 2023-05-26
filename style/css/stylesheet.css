@@ -1,0 +1,119 @@
+/* Font Face */
+@font-face {
+  font-family: 'CaskaydiaCove';
+  src: url('fonts/CaskaydiaCove-Regular.otf') format('opentype');
+}
+
+/* Color Schemes */
+:root {
+  --primary-color: #176555;
+  --accent-1-color: #3cbfb1;
+  --accent-2-color: #96c63e;
+  --neutral-color: #cbc3e3;
+}
+
+:root[data-color-scheme="jet-puff-mallow"] {
+  --primary-color: #e8478b;
+  --accent-1-color: #3cbfb1;
+  --accent-2-color: #d494fa;
+  --neutral-color: #cbc3e3;
+}
+
+:root[data-color-scheme="airheadz"] {
+  --primary-color: #0aa2db;
+  --accent-1-color: #19a6de;
+  --accent-2-color: #22ee5b;
+  --neutral-color: #cbc3e3;
+}
+
+:root[data-color-scheme="riptide"] {
+  --primary-color: #ed4f98;
+  --accent-1-color: #1079a1;
+  --accent-2-color: #2b458f;
+  --neutral-color: #cbc3e3;
+}
+
+/* CSS Styles */
+body {
+  font-family: 'CaskaydiaCove', sans-serif;
+  line-height: 1.5;
+  margin: 20px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: var(--text-color);
+}
+
+code {
+  font-family: 'Consolas', monospace;
+  background-color: #f2f2f2;
+  padding: 2px 4px;
+  border-radius: 4px;
+  color: var(--text-color);
+}
+
+pre {
+  font-family: 'Consolas', monospace;
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 4px;
+  overflow: auto;
+  color: var(--text-color);
+}
+
+ul, ol {
+  margin: 0 0 10px 20px;
+  color: var(--text-color);
+}
+
+p {
+  margin: 0 0 10px;
+  color: var(--text-color);
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.notification {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: var(--notification-background-color);
+  color: var(--text-color);
+  border-radius: 4px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.subtitle {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--text-color);
+}
+
