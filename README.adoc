@@ -1,6 +1,6 @@
-[width="100%"]
-
 = Windfall License (WfL) Version 1.0
+:stylesheet: stylesheet.css
+
 
 Preamble
 ++++++++
